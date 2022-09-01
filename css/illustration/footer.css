@@ -1,0 +1,30 @@
+.footer {
+    bottom: 0;
+    margin: .5rem;
+    margin-top: 1rem;
+    position: relative;
+}
+.footer__input {
+    border: none;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    color: var(--grayish-blue);
+    font-size: .5rem;
+    padding: .75rem;
+    width: 100%;
+}
+
+.footer__buttonSend {
+    background-color: var(--very-dark-desaturated-violet);
+    border-radius: 2rem;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    height: 1.5rem;
+    font-weight: 700;
+    margin: .25rem;
+    position: absolute;
+    right: 0;
+    top: calc(50% - .75rem - .25rem);
+    width: 1.5rem;
+}

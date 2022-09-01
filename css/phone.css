@@ -1,0 +1,30 @@
+
+.phone {
+    background-color: var(--white);
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem rgba(167, 167, 167, 0.5);
+    margin: 4.5rem auto;
+    padding: .5rem;
+    position: relative;
+    width: 230px;
+    aspect-ratio: 1/2;
+}
+.phone__notch {
+    background-color: var(--white);
+    border-radius: 0 0 .75rem .75rem;
+    
+    height: 1.75em;
+    left: calc(50% - (50%)/2);
+    position: absolute;
+    top: 0;
+    width: 50%;
+
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .phone {
+        margin: 0;
+        max-width: 300px;
+    }
+}

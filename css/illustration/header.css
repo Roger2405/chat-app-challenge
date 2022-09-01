@@ -1,0 +1,52 @@
+
+.header {
+    align-items: center;
+    background-image: linear-gradient(90deg, var(--light-violet), var(--light-magenta));
+    border-radius: 1.5rem 1.5rem .5rem .5rem;
+    box-sizing: border-box;
+    display:flex;
+    padding: 1.5rem .5rem .75rem .5rem;
+    width: 100%;
+}
+.header > * {
+    margin: 0 .25rem;
+}
+.header__buttonBack {
+    background-color: unset;
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+}
+.header__avatar {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    height: 25px;
+}
+/*header__text*/
+.header__text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.header__text * {
+    color: var(--white);
+    margin: 0;
+}
+.header__text--name {
+    font-size: .75rem;
+}
+.header__text--status {
+    font-size: .5rem;
+    font-weight: 400;
+    color: var(--pale-violet);
+}
+
+/*header__buttonOptions*/
+.header__buttonOptions {
+    color: var(--white);
+    margin-left: auto;
+    writing-mode: vertical-lr;
+}
+.header__buttonOptions::after {
+    content: "...";
+}
