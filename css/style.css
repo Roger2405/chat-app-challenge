@@ -59,4 +59,8 @@ body {
         clip-path: ellipse(70% 90% at 90% 125%); 
         /*transform: rotate(180deg);   */
     }
+    .attribution {
+        position: absolute;
+        bottom: 0;
+    }
 }
